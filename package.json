@@ -1,7 +1,7 @@
 {
   "name": "string2argv",
   "description": "fork from string-argv, parse a string into an argument array, do the job like `process.argv` for us.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "keywords": [
