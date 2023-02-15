@@ -1,43 +1,36 @@
 {
-  "name": "string-argv",
-  "description": "string-argv parses a string into an argument array to mimic process.argv. This is useful when testing Command Line Utilities that you want to pass arguments to.",
-  "version": "0.3.0",
-  "contributors": [
-    {
-      "name": "Michael Ferris",
-      "email": "mike.ferri@hotmail.com"
-    }
-  ],
-  "author": {
-    "name": "Anthony McCormick",
-    "email": "anthony.mccormick@gmail.com"
-  },
+  "name": "string2argv",
+  "description": "fork from string-argv, parse a string into an argument array, do the job like `process.argv` for us.",
+  "version": "1.0.0",
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
   "license": "MIT",
   "keywords": [
-    "argv"
+    "argv",
+    "parse"
   ],
   "scripts": {
     "build": "tsc -p .",
     "prepublishOnly": "npm test",
     "test": "npm run build & jasmine --config=test/config.json"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "main": "index",
   "types": "index.d.ts",
   "engines": {
     "node": ">=0.6.19"
   },
   "bugs": {
-    "url": "https://github.com/mccormicka/string-argv/issues"
+    "url": "https://github.com/vikiboss/string2argv/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mccormicka/string-argv"
-  },
-  "homepage": "https://github.com/mccormicka/string-argv",
+  "repository": "vikiboss/string2argv",
+  "homepage": "https://github.com/vikiboss/string2argv",
   "readmeFilename": "README.md",
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "^2.4.1",
-    "typescript": "^3.4.3"
+    "jasmine": "^4.5.0",
+    "typescript": "^4.9.5"
   }
 }
